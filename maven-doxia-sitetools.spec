@@ -33,7 +33,7 @@
 
 Name:           %{parent}-%{subproj}
 Version:        1.4
-Release:        3%{?dist}
+Release:        2%{?dist}
 Summary:        Doxia content generation framework
 License:        ASL 2.0
 Group:          Development/Tools
@@ -121,9 +121,6 @@ rm -rf $(find -type d -name itext)
 %files javadoc -f .mfiles-javadoc
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-3
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.4-2
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
